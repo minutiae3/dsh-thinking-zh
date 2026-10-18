@@ -1,0 +1,49 @@
+{
+  "name": "dsh-thinking-zh",
+  "version": "0.1.0",
+  "description": "Force the model's internal reasoning (thinking) to be written in Simplified Chinese. 让模型的内部思考使用简体中文。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "cordis.patch.yml",
+    "README.md",
+    "README.en.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "dsh": ">=0.2.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "reasoning",
+    "thinking",
+    "chinese",
+    "zh-CN",
+    "i18n"
+  ],
+  "author": "minutiae3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minutiae3/dsh-thinking-zh.git"
+  },
+  "homepage": "https://github.com/minutiae3/dsh-thinking-zh",
+  "bugs": {
+    "url": "https://github.com/minutiae3/dsh-thinking-zh/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

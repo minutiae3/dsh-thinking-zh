@@ -1,0 +1,6 @@
+# Bundle patch layer: load this package as a host plugin in the profile.
+# Kept to the same one-row shape as the other community bundles, so a future
+# DSH that still composes `dsh.profile.bundles` loads it unchanged.
+- insert:
+    - id: dsh-thinking-zh
+      name: dsh-thinking-zh
