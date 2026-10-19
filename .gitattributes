@@ -1,0 +1,2 @@
+# Keep line endings consistent across Windows and CI so npm tarballs match the repo.
+* text=auto eol=lf

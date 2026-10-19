@@ -1,0 +1,14 @@
+# dependencies
+node_modules/
+
+# npm pack output
+*.tgz
+
+# editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
+
+# temporary files left by tooling
+lib/*.lock
+.dsh-ops-*

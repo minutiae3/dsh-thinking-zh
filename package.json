@@ -1,7 +1,7 @@
 {
   "name": "dsh-thinking-zh",
-  "version": "0.1.0",
-  "description": "Force the model's internal reasoning (thinking) to be written in Simplified Chinese. 让模型的内部思考使用简体中文。",
+  "version": "0.2.0",
+  "description": "Force the model's internal reasoning (thinking) to be written in Simplified or Traditional Chinese. 让模型的内部思考使用简体或繁体中文。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -10,11 +10,17 @@
   },
   "files": [
     "lib/index.js",
+    "lib/text.js",
+    "test/smoke.mjs",
     "cordis.patch.yml",
     "README.md",
     "README.en.md",
+    "CHANGELOG.md",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "node test/smoke.mjs"
+  },
   "engines": {
     "dsh": ">=0.2.0"
   },
@@ -31,6 +37,7 @@
     "thinking",
     "chinese",
     "zh-CN",
+    "zh-TW",
     "i18n"
   ],
   "author": "minutiae3",
