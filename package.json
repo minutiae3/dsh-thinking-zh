@@ -1,7 +1,7 @@
 {
   "name": "dsh-thinking-zh",
-  "version": "0.2.0",
-  "description": "Force the model's internal reasoning (thinking) to be written in Simplified or Traditional Chinese. 让模型的内部思考使用简体或繁体中文。",
+  "version": "0.2.1",
+  "description": "Force the model's internal reasoning (thinking) to be written in Simplified or Traditional Chinese, with an optional reply-language policy. 让模型的内部思考使用简体或繁体中文，并可单独约束回复语言。",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -38,6 +38,7 @@
     "chinese",
     "zh-CN",
     "zh-TW",
+    "reply-language",
     "i18n"
   ],
   "author": "minutiae3",
